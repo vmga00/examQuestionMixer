@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<script type="text/javascript" src="../js/estatistics.js" ></script>
+	<title>Generador de Preguntas</title>
 </head>
 <body>
-
+	  <label for="lname">Pregunta:</label><br>
+	  <textarea id="question" name="question" rows="10" cols="80">
+	  	Calcular la desviación estándar de las siguientes puntuaciones de un jugador de baloncesto en los últimos partidos:
+	  </textarea><br>
+	  <br><label >Valores</label>
+	  <br><input type="text" id="valores" value="Puntuaciones: 10, 32, 24, 26, 40, 24"></input>
+	  <br><br><input type="submit" value="Generar" onclick="getMedia();" />
+	 
 </body>
 </html>
